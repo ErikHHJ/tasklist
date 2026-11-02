@@ -1,0 +1,30 @@
+dialog {
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 16px 20px 8px 20px;
+    font-family: Arial, sans-serif;
+    min-width: 280px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+span {
+    float: right;
+    font-size: 1.6em;
+    cursor: pointer;
+    line-height: 0.7;
+}
+
+dialog > div {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 12px;
+    margin-top: 24px;
+    align-items: center;
+}
+
+button {
+    margin-top: 8px;
+}

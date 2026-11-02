@@ -1,0 +1,21 @@
+h1 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 8px;
+}
+
+#message {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+#newtask {
+    margin: 10px 0 16px 0;
+}
+
+button {
+    padding: 4px 10px;
+}
+
+button:disabled {
+    cursor: default;
+}
